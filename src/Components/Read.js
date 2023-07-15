@@ -34,8 +34,9 @@ function Read() {
 
 
   return (
-   <Table singleLine>
-     <Table.Header>
+    <div className='read'>
+   <Table singleLine >
+     <Table.Header >
         <Table.Row>
             <Table.HeaderCell>First Name</Table.HeaderCell>
             <Table.HeaderCell>Last Name</Table.HeaderCell>
@@ -79,6 +80,7 @@ function Read() {
         </Table.Row> */}
      </Table.Body>
    </Table>
+   </div>
   )
 }
 
